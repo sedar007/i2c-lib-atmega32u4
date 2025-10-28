@@ -20,6 +20,8 @@ void i2c_init(void);
 void i2c_start_write(uint8_t address7);
 void i2c_write(uint8_t data);
 void i2c_stop(void);
+uint8_t i2c_read(uint8_t ack);
+void i2c_start_read(uint8_t address);
 
 
 #endif //I2C_LIB_ATMEGA32U4_I2C_H
